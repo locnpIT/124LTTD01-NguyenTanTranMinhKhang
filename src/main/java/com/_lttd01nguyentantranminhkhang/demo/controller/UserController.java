@@ -26,7 +26,7 @@ public class UserController {
         return this.userService.getAllUSer();
     }
 
-    @PostMapping("/Users")
+    @PostMapping("/users")
     public User postMethodName(@RequestBody User user) {
         return this.userService.luuUser(user);
 
